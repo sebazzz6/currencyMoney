@@ -4,17 +4,17 @@
 }
 
 body {
-    background: #07335a;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    color:white;
 }
 
 .container {
     width: 50%;
     height: 80%;
-    background-color: #0b4f8a;
+    background-color: #212529;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
