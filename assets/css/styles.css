@@ -1,0 +1,60 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #07335a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    height: 80%;
+    background-color: #0b4f8a;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header hr {
+    border-top: 2px solid rgb(0, 255, 251);
+}
+
+.conversor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 40%;
+    color: white;
+    background: rgba(255, 255, 255, 0.507);
+    justify-content: space-around;
+}
+
+#clpInput {
+    width: 60%;
+}
+
+#currencySelector {
+    width: 60%;
+}
+
+#btnResult {
+    width: 60%;
+}
+
+#graph {
+    margin-top: 5%;
+    width: 100%;
+    height: 35%;
+    background: #07335a76;
+}
+
+#myChart {
+    max-height: 100%;
+}
